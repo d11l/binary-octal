@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 
@@ -12,7 +11,7 @@ public class binary_octal {
         
   Scanner in = new Scanner(System.in); 
 
-  System.out.println("To convert a number from number to octal, write 1\nTo convert a number from octal to binary, write 2");
+  System.out.println("To convert a number from binary to octal, write 1\nTo convert a number from octal to binary, write 2");
   
   System.out.print("Write here: ");
   int Choice = in.nextInt();
